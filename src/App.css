@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.ota{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.box{
+  background: #000;
+  width: 650px;
+  padding: 50px 20px;
+  border-radius: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  border: 2px solid black;
+}
